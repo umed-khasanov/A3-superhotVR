@@ -1,0 +1,65 @@
+# Unity .gitignore (works for Unity 6 / XR / Quest projects)
+# Place this file in the ROOT of the project, next to Assets/, Packages/ and ProjectSettings/.
+
+# --- Unity generated folders ---
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# --- Asset meta data should always be kept. Do NOT ignore *.meta ---
+
+# --- IDE / editor files ---
+/.vs/
+/.vscode/
+/.idea/
+/.gradle/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# --- Unity-generated auto files ---
+sysinfo.txt
+crashlytics-build.properties
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# --- Builds and large binaries (put these in Moodle / OneDrive, not in Git) ---
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+*.exe
+
+# --- Addressables / generated data ---
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# --- Code coverage / test results ---
+/[Cc]ode[Cc]overage/
+TestResults/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
