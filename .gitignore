@@ -63,3 +63,6 @@ TestResults/
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+
+# raw downloaded asset packs
+/_Downloads/
